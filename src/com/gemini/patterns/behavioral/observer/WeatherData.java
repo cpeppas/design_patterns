@@ -1,4 +1,4 @@
-package com.gemini.patterns.observer;
+package com.gemini.patterns.behavioral.observer;
 
 import java.util.ArrayList;
 

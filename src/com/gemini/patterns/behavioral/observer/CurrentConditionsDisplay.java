@@ -1,4 +1,4 @@
-package com.gemini.patterns.observer;
+package com.gemini.patterns.behavioral.observer;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement{
 

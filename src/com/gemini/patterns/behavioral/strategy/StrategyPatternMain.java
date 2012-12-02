@@ -1,4 +1,4 @@
-package com.gemini.patterns.strategy;
+package com.gemini.patterns.behavioral.strategy;
 
 public class StrategyPatternMain {
 

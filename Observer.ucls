@@ -1,0 +1,62 @@
+<class-diagram version="1.0.10" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" corner="BOTTOM_RIGHT" language="java" name="com.gemini.patterns.behavioral.observer.Observer" 
+    project="design_patterns" file="/design_patterns/src/com/gemini/patterns/behavioral/observer/Observer.java" 
+    binary="false">    
+    <position x="919" y="215" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="2" corner="BOTTOM_RIGHT" language="java" name="com.gemini.patterns.behavioral.observer.Subject" 
+    project="design_patterns" file="/design_patterns/src/com/gemini/patterns/behavioral/observer/Subject.java" 
+    binary="false">    
+    <position x="689" y="109" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" corner="BOTTOM_RIGHT" language="java" name="com.gemini.patterns.behavioral.observer.DisplayElement" 
+    project="design_patterns" file="/design_patterns/src/com/gemini/patterns/behavioral/observer/DisplayElement.java" 
+    binary="false">    
+    <position x="1125" y="433" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" 
+    name="com.gemini.patterns.behavioral.observer.CurrentConditionsDisplay" project="design_patterns" 
+    file="/design_patterns/src/com/gemini/patterns/behavioral/observer/CurrentConditionsDisplay.java" binary="false">    
+    <position x="842" y="452" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="com.gemini.patterns.behavioral.observer.WeatherData" 
+    project="design_patterns" file="/design_patterns/src/com/gemini/patterns/behavioral/observer/WeatherData.java" 
+    binary="false">    
+    <position x="464" y="287" width="-1" height="-1"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <realization id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <realization id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
